@@ -1,4 +1,38 @@
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+.items {
+    border-radius: 3px;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+}
+
+.container {
+    background-color: blueviolet;
+    display: flex;
+
+}
+
+.item1 {
+    background-color: lightgreen;
+}
+
+.item2 {
+    background-color: lightcoral;
+}
+
+.item3 {
+    background-color: lightgrey;
+}
+
+.item4 {
+    background-color: lightpink;
+}
+
+.item5 {
+    background-color: brown;
 }
